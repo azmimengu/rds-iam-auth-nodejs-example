@@ -1,0 +1,22 @@
+{
+  "name": "rds-iam-auth-nodejs-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Azmi Mengü",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.756.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.1",
+    "pg": "^8.3.3",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.2.0"
+  }
+}

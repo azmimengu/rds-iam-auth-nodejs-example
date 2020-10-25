@@ -1,0 +1,23 @@
+{
+  "development": {
+    "aws_region": "eu-central-1",
+    "username": "rds_user",
+    "database": "development",
+    "host": "developmentHost",
+    "port": 3306
+  },
+  "test": {
+    "aws_region": "eu-central-1",
+    "username": "rds_user",
+    "database": "staging",
+    "host": "stagingHost",
+    "port": 3006
+  },
+  "production": {
+    "aws_region": "eu-central-1",
+    "username": "rds_user",
+    "database": "production",
+    "host": "productionHost",
+    "port": 3306
+  }
+}
